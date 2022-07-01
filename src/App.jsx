@@ -23,7 +23,7 @@ function App() {
         <p className=" text-center text-neonGreen text-xs tracking-[4px]">
           ADVICE #{advices.id}
         </p>
-        <div className=" h-full flex justify-center items-center">
+        <div className="h-full flex justify-center items-center">
           {spinner ? (
             <Spinner />
           ) : (
@@ -32,10 +32,10 @@ function App() {
             </p>
           )}
         </div>
-        <div className=" h-auto flex items-end pb-6">
+        <div className="h-auto flex items-end pb-6">
           <img
             className=""
-            src="/assets/pattern-divider-mobile.svg"
+            src="/assets/pattern-divider-desktop.svg"
             alt="divider"
           />
         </div>
