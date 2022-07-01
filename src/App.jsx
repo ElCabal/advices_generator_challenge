@@ -19,7 +19,7 @@ function App() {
   }, [change]);
   return (
     <section className="font-manrope h-screen bg-darkBlue flex justify-center items-center px-4">
-      <div className="rounded-md bg-darkGrayishBlue h-72 w-[400px] px-6 py-10 flex flex-col items-center relative shadow-md">
+      <div className="rounded-xl bg-darkGrayishBlue h-72 w-[400px] px-6 py-10 flex flex-col items-center relative shadow-md">
         <p className=" text-center text-neonGreen text-xs tracking-[4px]">
           ADVICE #{advices.id}
         </p>
