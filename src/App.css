@@ -1,0 +1,3 @@
+.shadow_effect:hover {
+  box-shadow: 0 0 25px hsl(150, 100%, 66%);
+}
