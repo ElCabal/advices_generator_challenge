@@ -40,7 +40,7 @@ function App() {
           />
         </div>
         <button
-          className=" bg-neonGreen w-14 h-14 flex justify-center items-center rounded-full absolute -bottom-[29px] shadow_effect"
+          className=" bg-neonGreen w-14 h-14 flex justify-center items-center rounded-full absolute -bottom-[29px] shadow_effect hover:animate-spin"
           onClick={() => setChange(!change)}
         >
           <img src="/assets/icon-dice.svg" alt="" />
